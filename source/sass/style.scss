@@ -1,6 +1,13 @@
-@import "base/fonts.scss";
 
-body  {
-    background-color: red;
-    font-family: "Open sans", sans-serif;
-}
+@import "base/variables.scss";
+@import "base/fonts.scss";
+@import "base/normolize.scss";
+@import "base/base.scss";
+
+@import "components/header.scss";
+@import "components/nav.scss";
+@import "components/about-company.scss";
+@import "components/button.scss";
+@import "components/reviews.scss";
+@import "components/opening-hours.scss";
+@import "components/footer.scss";

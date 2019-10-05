@@ -1,0 +1,17 @@
+.header__logo {
+    width: 50%;
+    text-align: center;
+    background-color: $bg-dark;
+    padding: 40px;
+    margin-right: auto;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: $tablet) {
+        width: 25%;
+    }
+}
+

@@ -1,0 +1,28 @@
+.opening-hours {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.opening-hours__content {
+    margin: 0 auto;
+    width: 240px;
+}
+
+.opening-hours__row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    &:nth-child(odd) {
+        background-color: $bg-dark;
+    }
+}
+
+.opening-hours__value {
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}

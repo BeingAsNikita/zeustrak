@@ -1,0 +1,40 @@
+.about-company {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.about-company__title  {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        margin-left: -35px;
+
+        width: 70px;
+        height: 3px;
+        background-color: #d24a43;
+    }
+}
+
+.about-company__text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    max-width: 580px;
+
+    &--warning {
+        text-transform: uppercase;
+        color: $accent;
+        margin-bottom: 40px;
+    }
+}
